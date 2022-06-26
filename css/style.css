@@ -225,7 +225,7 @@ select {
 /* header */
 
 .hero {
-  background-image: url(/images/hero.png);
+  background-image: url(../images/hero.png);
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -278,7 +278,7 @@ select {
   border: none;
   border-top: 1px solid rgba(0, 0, 0, 0.3);
   width: 100%;
-  background: url("/images/icons/noun_calender_863471.svg") no-repeat right;
+  background: url("../images/icons/noun_calender_863471.svg") no-repeat right;
   background-size: 10%;
 }
 
@@ -360,7 +360,7 @@ input[type="text" i] {
   font-size: 1.25em;
   border: none;
   border-top: 1px solid rgba(0, 0, 0, 0.3);
-  background: url("/images/icons/noun_clock_4237431.svg") no-repeat right;
+  background: url("../images/icons/noun_clock_4237431.svg") no-repeat right;
   background-size: 10%;
 }
 
