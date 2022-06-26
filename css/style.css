@@ -1,0 +1,1170 @@
+/* typography */
+h1 {
+  font-family: "Archivo", sans-serif;
+  font-size: 8em;
+  text-transform: uppercase;
+  color: white;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 35%;
+  left: 50%;
+}
+
+h2 {
+  font-family: "Archivo", sans-serif;
+  font-size: 3.125em;
+  text-transform: uppercase;
+  line-height: 60px;
+}
+
+header h2 {
+  text-align: right;
+  display: block;
+  width: 26%;
+  float: left;
+  margin-left: 240px;
+  padding-top: 140px;
+}
+
+.popup h2 {
+  text-align: right;
+  display: block;
+  margin: 0;
+  width: 40%;
+  float: left;
+  color: #f1ff4b;
+  padding-top: 60px;
+}
+
+main h2 {
+  width: 100%;
+  text-align: center;
+}
+
+h3 {
+  font-family: "Archivo", sans-serif;
+  font-size: 3.75em;
+  text-transform: uppercase;
+  color: #5041ff;
+  margin-left: 180px;
+  margin-top: 10px;
+}
+
+footer h3 {
+  color: white;
+  margin-left: 139px;
+}
+
+h4 {
+  font-family: "Archivo", sans-serif;
+  font-size: 1.25em;
+}
+
+header h4 {
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+main h4 {
+  margin-left: 180px;
+  margin-top: 105px;
+}
+
+footer h4 {
+  color: white;
+  display: inline-block;
+  margin-left: 139px;
+  margin-top: 71px;
+  float: none;
+}
+
+.intro h4 {
+  margin-top: 45px;
+  text-align: center;
+  margin-left: 0;
+}
+
+h5 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.25em;
+  font-weight: 700;
+  color: white;
+  margin-top: 10%;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.25em;
+  line-height: 34px;
+  width: 33%;
+  float: left;
+  margin-left: 44px;
+  margin-top: 140px;
+  text-align: left;
+  width: 26%;
+}
+
+.popup p {
+  margin: 0;
+  margin-left: 40px;
+  color: #f1ff4b;
+  width: 42%;
+  font-size: 1.3125em;
+  padding-top: 60px;
+}
+
+.cardpopup p {
+  color: white;
+  font-size: 0.875em;
+  margin-left: 0;
+  padding-top: 7px;
+  white-space: normal;
+  line-height: 20px;
+}
+
+.pickertext {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.875em;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.3);
+  margin-top: 10px;
+  float: none;
+  margin-left: 0;
+  white-space: nowrap;
+}
+
+/* navigation */
+
+.logo {
+  width: 14%;
+  margin-top: 3%;
+  padding-bottom: 43px;
+  float: left;
+}
+
+.logo img {
+  margin-left: 30%;
+}
+
+.destinations {
+  height: 68px;
+  width: 19%;
+  float: right;
+  margin-top: 4%;
+  margin-right: 2%;
+}
+
+.tours {
+  height: 68px;
+  width: 19%;
+  float: right;
+  margin-right: 139px;
+  margin-top: 4%;
+}
+
+/* dropdown */
+
+label {
+  font-family: "open-sans", sans-serif;
+  font-weight: 700;
+  font-size: 1.25em;
+}
+
+.ui-selectmenu-button.ui-button {
+  margin-top: 16px;
+  margin-bottom: 6px;
+  border: none;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+  background-color: transparent;
+  border-radius: 0;
+}
+
+.ui-selectmenu-button.ui-button {
+  text-align: left;
+  white-space: nowrap;
+  width: 100%;
+}
+.ui-button {
+  padding: 6px 0;
+}
+
+.ui-widget.ui-widget-content {
+  border: none;
+}
+
+.ui-menu .ui-menu-item-wrapper {
+  position: relative;
+  padding: 3px 1em 3px 0.4em;
+  background-color: #5041ff;
+  border: none;
+  color: #f1ff4b;
+  font-weight: 900;
+  font-family: "Archivo", sans-serif;
+  font-size: 1.25em;
+  border-bottom: 1px solid #f1ff4b;
+  padding: 20px;
+}
+
+select {
+  padding-top: 6px;
+  color: rgba(0, 0, 0, 0.3);
+  font-family: "open-sans", sans-serif;
+  font-size: 1.25em;
+}
+
+.clear {
+  clear: both;
+}
+
+.clearnone {
+  display: none;
+  clear: both;
+}
+/* header */
+
+.hero {
+  background-image: url(/images/hero.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 600px;
+}
+
+.bookingguide {
+  width: 70%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 90%;
+  left: 50%;
+}
+
+.title {
+  width: 36%;
+  background-color: black;
+}
+
+/* datepicker */
+.choice {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.datepicker {
+  width: 100%;
+  margin: 0 auto;
+  background-color: white;
+  padding-bottom: 70px;
+  padding-left: 20px;
+  border-radius: 0 0 10px 10px;
+}
+
+.select {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.date {
+  width: calc(26% - 36px);
+  height: 75px;
+  float: left;
+  margin-top: 44px;
+}
+
+#datepicker {
+  margin-top: 16px;
+  margin-bottom: 6px;
+  border: none;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+  width: 100%;
+  background: url("/images/icons/noun_calender_863471.svg") no-repeat right;
+  background-size: 10%;
+}
+
+.ui-datepicker {
+  width: 19%;
+  margin: 5px auto 0;
+  font-family: "open-sans", sans-serif;
+  background-color: white;
+}
+
+.ui-datepicker table {
+  width: 100%;
+}
+
+.ui-datepicker-header {
+  font-family: "Archivo", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.25em;
+  color: black;
+  font-weight: 900;
+  padding-top: 2px;
+  padding: 10px 0 10px 0;
+  background-color: white;
+  border: none;
+}
+
+.ui-datepicker th {
+  text-transform: uppercase;
+  font-size: 0.875em;
+  background-color: #5041ff;
+  color: #f1ff4b;
+  font-weight: 900;
+  padding: 10px 0 10px 0;
+}
+
+.ui-state-default,
+.ui-widget-content .ui-state-default {
+  border: none;
+  background: white;
+  font-weight: normal;
+  color: black;
+  text-align: center;
+}
+
+input[type="text" i] {
+  font-family: "Archivo", sans-serif;
+  padding: 16px 0px;
+  font-weight: 900;
+  font-size: 1.25em;
+}
+
+.pickerkop {
+  font-family: "open-sans", sans-serif;
+  font-size: 0.875em;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+/* timepicker */
+
+.time {
+  width: calc(26% - 36px);
+  height: 75px;
+  float: left;
+  margin-left: 56px;
+  margin-top: 44px;
+}
+
+.timepicker {
+  margin-top: 16px;
+  width: 100%;
+}
+
+input[type="text" i] {
+  font-family: "Archivo", sans-serif;
+  padding: 16px 0px;
+  font-weight: 900;
+  font-size: 1.25em;
+  border: none;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+  background: url("/images/icons/noun_clock_4237431.svg") no-repeat right;
+  background-size: 10%;
+}
+
+.ui-timepicker-standard {
+  font-family: "Archivo", sans-serif;
+  font-weight: 900;
+  font-size: 1.25em;
+  background-color: white;
+  border: none;
+  color: black;
+  margin: 0;
+  padding: 2px;
+}
+
+.ui-timepicker-standard a {
+  border: none;
+  font-family: "Archivo", sans-serif;
+  font-weight: 900;
+  display: block;
+  padding: 0.5em 0.7em;
+  text-decoration: none;
+  text-align: left;
+  font-size: 1.25em;
+}
+
+.ui-timepicker-standard .ui-state-hover {
+  background-color: #5041ff;
+  border: none;
+  font-weight: 900;
+  color: #f1ff4b;
+}
+
+.buttonguide {
+  width: calc(26% - 36px);
+  float: left;
+  margin-left: 74px;
+  margin-top: 44px;
+}
+
+/* popup */
+
+button {
+  border: none;
+  background-color: #5041ff;
+  padding: 24px 45px 24px 45px;
+  border-radius: 10px;
+  text-align: center;
+  font-family: "Archivo", sans-serif;
+  color: white;
+  font-size: 1.25em;
+  margin-top: 0;
+  white-space: nowrap;
+}
+
+.popup {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  width: 80%;
+  background-color: #5041ff;
+  border-radius: 10px;
+  padding: 10px;
+  z-index: 100;
+  display: none;
+  padding: 24px;
+}
+
+.close-btn {
+  position: absolute;
+  right: 20px;
+  top: 15px;
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+  padding: 4px 8px;
+}
+
+.logoYellow {
+  padding-left: 40%;
+}
+
+.intro-text {
+  margin-left: 100px;
+}
+
+.cardpopup {
+  display: inline-block;
+  margin-right: 20px;
+  width: 45%;
+  background-color: #ffffff0c;
+  border: 4px solid white;
+  border-radius: 10px;
+}
+
+.first {
+  margin-left: 130px;
+}
+
+.portret {
+  width: 36%;
+  float: left;
+  border-radius: 6px 0px 0px 6px;
+  padding-right: 20px;
+}
+
+/* intro geel */
+
+.yellow {
+  background-color: #f1ff4b;
+  padding-bottom: 100px;
+}
+
+.relative {
+  position: relative;
+}
+
+.scribble {
+  width: 31%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 470px;
+  left: 51%;
+}
+
+/* main */
+
+/* slider */
+
+.photos {
+  position: relative;
+  margin-top: 8%;
+}
+
+.scrolling-wrapper {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  padding-top: 64px;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.card {
+  display: inline-block;
+  padding-right: 20px;
+  width: 320px;
+}
+
+.begin {
+  margin-left: 180px;
+}
+
+.scribble2 {
+  position: absolute;
+  width: 29%;
+  transform: translate(-50%, -50%);
+  left: 60%;
+  top: 100%;
+}
+
+/* video */
+
+.video {
+  margin-top: 12%;
+}
+
+.intro {
+  margin: 0 auto;
+  width: 42%;
+}
+
+.videoplayer {
+  width: 72%;
+  margin: 0 auto;
+  margin-top: 33px;
+  position: relative;
+}
+
+video {
+  border-radius: 0 0 10px 10px;
+}
+
+.bx.bx-play {
+  color: #5041ff;
+  font-size: 42px;
+  position: relative;
+  left: 5%;
+  top: 12px;
+}
+
+.bx.bx-pause {
+  color: #5041ff;
+  font-size: 42px;
+  position: relative;
+  left: 5%;
+  top: 12px;
+}
+
+.fastforward {
+  width: 9%;
+  height: 13%;
+  border-radius: 50%;
+  background: none;
+  border: none;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 40%;
+  left: 98%;
+  padding: 0;
+}
+
+main button {
+  border: none;
+  border: 5px solid #5041ff;
+  background-color: white;
+  width: calc(25% - 20px);
+  padding: 0px 0px 24px 0px;
+  border-radius: 10px;
+  margin-left: 20px;
+  text-align: center;
+  font-family: "Archivo", sans-serif;
+  color: #5041ff;
+  margin-top: 44px;
+  float: left;
+}
+
+a {
+  color: #5041ff;
+  text-decoration: none;
+}
+.videolist {
+  margin: 0 auto;
+  width: 80%;
+  text-align: center;
+}
+
+.maastricht {
+  margin-left: 1%;
+}
+
+.newyork {
+  margin-right: 0;
+}
+
+/* footer */
+
+footer {
+  margin-top: 114px;
+  background-color: black;
+}
+
+footer button {
+  border: 3px solid white;
+  background: none;
+  padding: 24px 35px 24px 35px;
+  border-radius: 10px;
+  margin-left: 0;
+  margin-right: 9px;
+  text-align: center;
+  font-family: "Archivo", sans-serif;
+  color: white;
+  white-space: nowrap;
+}
+
+.paars {
+  border: none;
+  background-color: #5041ff;
+  padding: 30px 35px 30px 35px;
+}
+
+.footerbutton {
+  margin-left: 139px;
+  padding-bottom: 40px;
+  margin-top: 44px;
+}
+
+footer img {
+  float: left;
+  margin-left: 38px;
+  margin-top: 10px;
+}
+
+footer h3 {
+  float: left;
+}
+
+.phone {
+  width: 15%;
+  float: left;
+  margin: 0;
+  margin-right: 17px;
+}
+
+@media only screen and (min-width: 1600px) {
+  h5 {
+    margin-top: 10%;
+  }
+
+  .scribble {
+    top: 500px;
+  }
+
+  .card {
+    width: 450px;
+  }
+
+  .videolist {
+    margin: 0 auto;
+  }
+
+  /* .maastricht {
+    margin-left: 0px;
+  } */
+}
+
+@media only screen and (max-width: 1024px) {
+  h1 {
+    font-size: 5em;
+  }
+
+  label {
+    font-size: 1em;
+  }
+
+  .title {
+    width: 50%;
+  }
+
+  button {
+    font-size: 1em;
+    white-space: nowrap;
+  }
+
+  .date {
+    width: calc(50% - 36px);
+  }
+  .time {
+    width: calc(50% - 36px);
+  }
+
+  .buttonguide {
+    float: none;
+    padding-top: 150px;
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .logoYellow {
+    padding-left: 35%;
+  }
+
+  .popup h2 {
+    float: none;
+    width: 70%;
+    text-align: center;
+    margin-left: 15%;
+  }
+
+  h5 {
+    margin-top: 5%;
+  }
+
+  .popup p {
+    float: none;
+    width: 70%;
+    text-align: center;
+    margin-left: 15%;
+    padding-top: 20px;
+  }
+
+  .cardpopup {
+    width: 60%;
+    padding-right: 10px;
+  }
+
+  .first {
+    margin-left: 15%;
+  }
+
+  .cardpopup p {
+    font-size: 0.8em;
+    white-space: normal;
+    text-align: left;
+    line-height: 18px;
+  }
+
+  .popup .intro-text {
+    margin-left: 0;
+  }
+
+  header h2 {
+    float: none;
+    margin-left: 0px;
+    padding-top: 180px;
+    text-align: center;
+    margin-left: 20%;
+    width: 50%;
+  }
+
+  p {
+    float: none;
+    width: 80%;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .scribble {
+    top: 120px;
+    width: 40%;
+    left: 60%;
+  }
+
+  .scribble2 {
+    width: 33%;
+  }
+
+  .videolist {
+    margin: 0 auto;
+    width: 60%;
+  }
+
+  .schimmert {
+    margin-left: 0px;
+  }
+
+  main button {
+    width: calc(50% - 20px);
+  }
+
+  footer h3 {
+    width: 50%;
+  }
+
+  footer img {
+    margin-top: 30px;
+  }
+}
+
+@media all and (max-width: 750px) {
+  .destinations {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-bottom: 20px;
+  }
+  .tours {
+    width: 40%;
+    margin-right: 5%;
+    padding-bottom: 20px;
+  }
+
+  .logo {
+    width: 100%;
+    padding-bottom: 20px;
+  }
+  .logo img {
+    width: 25%;
+    margin-left: 35%;
+  }
+
+  h1 {
+    font-size: 3.8em;
+  }
+
+  .popup {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .logoYellow {
+    padding-left: 25%;
+  }
+
+  .popup p {
+    padding-top: 10px;
+  }
+
+  .cardpopup {
+    width: 75%;
+  }
+
+  .ui-datepicker {
+    width: 65%;
+    margin: 5px auto 0;
+    font-family: "open-sans", sans-serif;
+  }
+
+  input[type="text" i] {
+    font-size: 1em;
+    background-size: 15%;
+  }
+
+  #datepicker {
+    background-size: 15%;
+  }
+
+  .ui-timepicker-standard a {
+    font-size: 1em;
+  }
+
+  .yellow {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .intro-text {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  header h2 {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  main h4 {
+    margin-left: 10%;
+  }
+
+  h3 {
+    margin-left: 10%;
+    font-size: 3.5em;
+  }
+
+  .begin {
+    margin-left: 10%;
+  }
+
+  .scribble {
+    top: 120px;
+    width: 60%;
+    left: 60%;
+  }
+
+  .scribble2 {
+    width: 50%;
+  }
+
+  .intro {
+    width: 60%;
+  }
+
+  main h2 {
+    padding-top: 30px;
+  }
+
+  .videoplayer {
+    width: 90%;
+  }
+
+  .fastforward {
+    top: 35%;
+    left: 96%;
+  }
+
+  .videolist {
+    width: 70%;
+  }
+
+  footer img {
+    margin-top: 65px;
+    margin-left: 50px;
+  }
+
+  footer h4 {
+    margin-left: 50px;
+  }
+
+  footer h3 {
+    margin-left: 50px;
+  }
+
+  .footerbutton {
+    margin-left: 50px;
+  }
+
+  .paars {
+    margin-top: 20px;
+  }
+}
+
+@media all and (max-width: 500px) {
+  label {
+    font-size: 1.25em;
+  }
+
+  .destinations {
+    width: 80%;
+    float: left;
+    margin-left: 10%;
+    padding-bottom: 20px;
+  }
+  .tours {
+    width: 80%;
+    margin-right: 10%;
+    padding-bottom: 20px;
+  }
+
+  .logo {
+    width: 100%;
+    padding-bottom: 20px;
+  }
+  .logo img {
+    width: 25%;
+    margin-left: 35%;
+  }
+
+  h1 {
+    font-size: 2.5em;
+    top: 20%;
+  }
+
+  .hero {
+    height: 400px;
+  }
+
+  .title {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .bookingguide {
+    width: 90%;
+    margin: 0 auto;
+    left: 48%;
+    top: 100%;
+  }
+
+  .datepicker {
+    width: 100%;
+  }
+
+  .date {
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .time {
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .popup {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .logoYellow {
+    padding-left: 25%;
+    width: 50%;
+  }
+
+  .popup h2 {
+    font-size: 2em;
+    line-height: 35px;
+  }
+
+  .popup p {
+    padding-top: 10px;
+    font-size: 1em;
+    line-height: 25px;
+  }
+
+  .cardpopup {
+    width: 100%;
+  }
+
+  .cardpopup p {
+    padding-top: 10px;
+    font-size: 0.9em;
+    line-height: 18px;
+  }
+
+  h5 {
+    font-size: 1em;
+  }
+  .portret {
+    width: 42%;
+  }
+
+  .ui-datepicker {
+    width: 65%;
+    margin: 5px auto 0;
+    font-family: "open-sans", sans-serif;
+  }
+
+  input[type="text" i] {
+    font-size: 1em;
+    background-size: 10%;
+  }
+
+  #datepicker {
+    background-size: 10%;
+  }
+
+  .ui-timepicker-standard a {
+    font-size: 1em;
+  }
+
+  .clearnone {
+    display: block;
+  }
+
+  .buttonguide {
+    float: none;
+    padding-top: 50px;
+    margin: 0 auto;
+    width: fit-content;
+  }
+
+  .intro-text {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  header h2 {
+    width: 100%;
+    margin-left: 0;
+    padding-top: 300px;
+    font-size: 2.5em;
+  }
+
+  main h4 {
+    margin-left: 5%;
+    line-height: 30px;
+    width: 80%;
+  }
+
+  .intro h4 {
+    margin-top: 45px;
+    text-align: center;
+    margin-left: 10%;
+  }
+
+  h3 {
+    margin-left: 5%;
+    font-size: 2.5em;
+  }
+
+  .begin {
+    margin-left: 5%;
+  }
+
+  .scribble {
+    top: 120px;
+    width: 80%;
+    left: 60%;
+  }
+
+  .scribble2 {
+    width: 60%;
+  }
+
+  .intro {
+    width: 90%;
+  }
+
+  main h2 {
+    padding-top: 30px;
+    font-size: 2.5em;
+  }
+
+  .fastforward {
+    width: 15%;
+    height: 13%;
+    top: 10%;
+    left: 98%;
+  }
+
+  .buttons {
+    margin-left: 20%;
+  }
+
+  .maastricht {
+    margin-top: 30px;
+  }
+
+  main button {
+    width: calc(80%);
+    margin-left: 0;
+    margin-top: 20px;
+  }
+
+  footer img {
+    margin-top: 65px;
+    margin-left: 40px;
+  }
+
+  footer h4 {
+    margin-left: 40px;
+  }
+
+  footer h3 {
+    margin-left: 40px;
+  }
+
+  .footerbutton {
+    margin-left: 40px;
+  }
+
+  .paars {
+    margin-top: 20px;
+  }
+}

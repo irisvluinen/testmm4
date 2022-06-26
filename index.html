@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo:wght@900&family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css"
+    />
+    <link
+      rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/timepicker/1.3.5/jquery.timepicker.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>city guide</title>
+  </head>
+  <body>
+    <nav>
+      <div class="logo"><img src="images/logo.svg" /></div>
+
+      <div class="tours">
+        <fieldset>
+          <label for="tours">Featured Tours</label>
+          <select name="tours" id="tours" class="dropdown">
+            <option value="Guided tour">Guided tour</option>
+            <option value="Group tour">Group tour</option>
+            <option value="Couples">Couples</option>
+            <option value="Audio tours">Audio tours</option>
+            <option value="Boat tours">Boat tours</option>
+            <option value="Rotjaknor">Rotjaknor</option>
+            <option value="Dublin">Dublin</option>
+            browse by location
+          </select>
+        </fieldset>
+      </div>
+
+      <div class="destinations">
+        <fieldset>
+          <label for="destinations">Destinations</label>
+          <select name="destinations" id="destinations" class="dropdown">
+            <option value="Maastricht">Maastricht</option>
+            <option value="Aachen">Aachen</option>
+            <option value="London">London</option>
+            <option value="Lisabon">Lisabon</option>
+            <option value="Schimmert">Schimmert</option>
+            <option value="Rotjaknor">Rotjaknor</option>
+            <option value="Dublin">Dublin</option>
+            browse by location
+          </select>
+        </fieldset>
+      </div>
+      <div class="clear"></div>
+    </nav>
+
+    <header>
+      <div class="hero">
+        <h1 class="stad">Maastricht</h1>
+
+        <div class="bookingguide">
+          <div class="choice">
+            <div class="title">
+              <h4>Book a guide in <span class="stad">Maastricht</span></h4>
+            </div>
+            <div class="datepicker">
+              <div class="select">
+                <div class="date">
+                  <label class="pickerkop">Date</label>
+                  <input type="text" id="datepicker" />
+                </div>
+                <div class="time">
+                  <label class="pickerkop">Time</label>
+                  <input type="text" class="timepicker" name="time" />
+                </div>
+                <div class="clearnone"></div>
+                <div class="buttonguide">
+                  <button onclick="togglePopup()">Find your guide</button>
+                  <p class="pickertext">We’ll choose the best match for you</p>
+                  <div class="clear"></div>
+                </div>
+              </div>
+              <div class="clear"></div>
+            </div>
+          </div>
+
+          <div class="popup">
+            <div onclick="togglePopup()" class="close-btn">×</div>
+            <img class="logoYellow" src="images/logo_yellow.svg" />
+            <div class="intro-text">
+              <h2>We found a match!</h2>
+              <p>
+                We fount the perfect guides for your city! Best yet, the guides
+                are available for you at your time. Let’s get you in touch now.
+              </p>
+            </div>
+            <div class="clear"></div>
+            <div class="scrolling-wrapper">
+              <div class="cardpopup first">
+                <img class="portret" src="images/man.jpg" />
+                <h5>Hugo Marcus</h5>
+                <p>+6 years tour guide experience</p>
+              </div>
+              <div class="cardpopup">
+                <img class="portret" src="images/vrouw.jpg" />
+                <h5>Maria Miosa</h5>
+                <p>+7 years tour guide experience</p>
+              </div>
+              <div class="cardpopup">
+                <img class="portret" src="images/man.jpg" />
+                <h5>Hugo Marcus</h5>
+                <p>+6 years tour guide experience</p>
+              </div>
+              <div class="clear"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="yellow">
+        <div class="intro-text">
+          <h2>Start exploring today</h2>
+          <p>
+            Mister guide offers a great way to tour a city. Book a guide right
+            now Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit
+            libero, a pharetra augue. Maecenas faucibus mollis interdum.
+          </p>
+          <div class="relative">
+            <img class="scribble" src="images/scribble_1.png" />
+          </div>
+        </div>
+        <div class="clear"></div>
+      </div>
+    </header>
+
+    <main>
+      <div class="photos">
+        <h4>Looking for a guided tour? Sight seeing in</h4>
+        <h3 class="stad">maastricht</h3>
+
+        <div class="scrolling-wrapper">
+          <div class="card begin"><img src="images/markt.png" /></div>
+          <div class="card"><img src="images/vrouw_stad.jpg" /></div>
+          <div class="card"><img src="images/huizen.jpg" /></div>
+          <div class="card"><img src="images/weg.jpg" /></div>
+          <div class="card"><img src="images/markt.png" /></div>
+        </div>
+
+        <div class="clear"></div>
+        <img class="scribble2" src="images/scribble_2.png" />
+      </div>
+
+      <div class="video">
+        <div class="intro">
+          <h2>Look at all those happy smiles</h2>
+          <h4>Follow Mister Guide around the globe</h4>
+        </div>
+        <div class="videoplayer">
+          <video width="100%" id="stadvideo" autoplay no-controls loop>
+            <source src="video/maastricht.mp4" type="video/mp4" />
+          </video>
+          <button class="fastforward"><img src="images/button.svg" /></button>
+          <div class="clear"></div>
+          <div class="buttons">
+            <button class="videostad maastricht" id="0">
+              <span class="left"> Maastricht</span> <i class="bx bx-play"></i>
+            </button>
+            <button class="videostad" id="1">
+              Aken<i class="bx bx-play"></i>
+            </button>
+            <button class="videostad schimmert" id="2">
+              Schimmert <i class="bx bx-play"></i>
+            </button>
+            <button class="videostad newyork" id="3">
+              New york <i class="bx bx-play"></i>
+            </button>
+            <div class="clear"></div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <h4>Need some help finding the perfect tour?</h4>
+      <div class="clear"></div>
+      <h3>contact mr. guide</h3>
+      <img src="images/logo_icon.svg" />
+      <div class="clear"></div>
+      <div class="footerbutton">
+        <button>
+          <img class="phone" src="images/telephone.svg" />9100-555-555
+        </button>
+        <button class="paars">Send us a mail</button>
+        <div class="clear"></div>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/timepicker/1.3.5/jquery.timepicker.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
